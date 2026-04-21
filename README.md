@@ -28,9 +28,3 @@ git clone https://github.com/Ovelhart/minecraft-theme-for-termux.git
 mkdir ~/.termux
 ```
 <p>5. Copy the file from the "colors.properties" repository folder to the ".termux" folder and restart Termux.</p>
-
-<h1>If you didn't understand, watch the tutorial and follow it step by step.</h1>
-
-<a href="https://www.youtube.com"><img src="https://raw.githubusercontent.com/Ovelhart/minecraft-theme-for-termux/refs/heads/main/thumb.jpg" alt="Minecraft Termux Screenshot" width="400"></a>
-
-In part 2 I will show you how to add a custom font.
