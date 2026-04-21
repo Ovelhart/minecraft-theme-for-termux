@@ -31,4 +31,4 @@ mkdir ~/.termux
 
 <h1>If you didn't understand, watch the tutorial and follow it step by step.</h1>
 
-<a href="https://www.youtube.com"><img src="https://raw.githubusercontent.com/Ovelhart/minecraft-theme-for-termux/refs/heads/main/screenshot.png" alt="Minecraft Termux Screenshot" width="400"></a>
+<a href="https://www.youtube.com"><img src="https://raw.githubusercontent.com/Ovelhart/minecraft-theme-for-termux/refs/heads/main/thumb.jpg" alt="Minecraft Termux Screenshot" width="400"></a>
