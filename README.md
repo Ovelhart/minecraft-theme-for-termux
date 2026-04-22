@@ -91,3 +91,24 @@ PS1='\[\e[1;31m\]->\[\e[0m\] '
 echo -e "\e[6 q"
 ```
 <p>6. To save, press Ctrl+X, then Y, and then Enter.</p>
+<h1>How to run auto-installer.sh</h1>
+<p>1. Install Git.</p>
+
+```bash
+pkg install git
+```
+<p>2. clone the repository.</p>
+
+```bash
+git clone https://github.com/Ovelhart/minecraft-theme-for-termux.git
+```
+<p>3. Give permission to the file.</p>
+
+```bash
+chmod +x minecraft-theme-for-termux/auto-installer.sh
+```
+<p>4. run the file.</p>
+
+```bash
+./minecraft-theme-for-termux/auto-installer.sh
+```
