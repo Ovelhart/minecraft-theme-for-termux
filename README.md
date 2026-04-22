@@ -71,6 +71,22 @@ nano ~/.bashrc
 ```bash
 clear
 fastfetch
+
+# typewriter effect function
+typewriter() {
+    text="$1"
+    delay=0.05
+    for ((i=0; i<${#text}; i++)); do
+        printf "%c" "${text:$i:1}"
+        sleep $delay
+    done
+    printf "\n"
+}
+
+echo "------"
+typewriter "Minecraft"
+echo "------"
+
 PS1='\[\e[1;31m\]->\[\e[0m\] '
 ```
 <p>6. To save, press Ctrl+X, then Y, and then Enter.</p>
