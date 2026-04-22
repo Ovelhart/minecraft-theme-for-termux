@@ -41,3 +41,36 @@ https://www.fontspace.com/minecraft-font-f28180
 ```
 <p>9. Convert the font to TTF and rename it to "font.ttf", then move it to the ".termux" folder.</p>
 <h1>If you want to run fastfetch automatically when you log into Termux, follow these instructions:</h1>
+<p>1. Install bash if it's not already installed.</p>
+
+```bash
+pkg install bash
+```
+<p>2. Set bash as the default.</p>
+
+```bash
+chsh -s bash
+```
+<p>3. Check if bash is set as the default. If it is, the output will be something like "/data/data/com.termux/files/usr/bin/bash". If it doesn't appear, try setting it as the default again or updating bash.</p>
+
+```bash
+echo $SHELL
+```
+<p>4. Install nano if it's not already installed.</p>
+
+```bash
+pkg install nano
+```
+<p>5. Edit the .bashrc file.</p>
+
+```bash
+nano ~/.bashrc
+```
+<p>6. Add this to your .bashrc file:</p>
+
+```bash
+clear
+fastfetch
+PS1='\[\e[1;31m\]->\[\e[0m\] '
+```
+<p>6. </p>
