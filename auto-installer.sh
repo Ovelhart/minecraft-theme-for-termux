@@ -26,6 +26,13 @@ else
   echo "continuing..."
 fi
 
+if [ -f ~/.bashrc ]; then
+  echo "It exists, erasing..."
+  rm ~/.bashrc
+else
+  echo "continuing..."
+fi
+
 if [ -f ~/.config/fastfetch/config.jsonc ]; then
   echo "It exists, erasing..."
   rm ~/.config/fastfetch/config.jsonc
@@ -48,7 +55,7 @@ curl -L -o ~/.termux/font.ttf https://raw.githubusercontent.com/Ovelhart/minecra
 clear
 
 toilet Minecraft | lolcat
-
+mv ~/minecraft-theme-for-termux/.bashrc ~/
 mv ~/minecraft-theme-for-termux/colors.properties ~/.termux/
 mv ~/minecraft-theme-for-termux/config.jsonc ~/.config/fastfetch/
 mv ~/minecraft-theme-for-termux/ascii.txt ~/.config/fastfetch/
