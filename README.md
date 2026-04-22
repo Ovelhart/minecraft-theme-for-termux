@@ -33,3 +33,4 @@ mkdir ~/.termux
 ```bash
 mkdir -p ~/.config/fastfetch
 ```
+<p>7. Copy the files "config.jsonc" and "ascii.txt" to ".config/fastfetch".</p>
