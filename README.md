@@ -88,5 +88,6 @@ typewriter "Minecraft"
 echo "------"
 
 PS1='\[\e[1;31m\]->\[\e[0m\] '
+echo -e "\e[6 q"
 ```
 <p>6. To save, press Ctrl+X, then Y, and then Enter.</p>
