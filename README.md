@@ -73,4 +73,4 @@ clear
 fastfetch
 PS1='\[\e[1;31m\]->\[\e[0m\] '
 ```
-<p>6. </p>
+<p>6. To save, press Ctrl+X, then Y, and then Enter.</p>
