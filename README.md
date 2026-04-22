@@ -28,3 +28,8 @@ git clone https://github.com/Ovelhart/minecraft-theme-for-termux.git
 mkdir ~/.termux
 ```
 <p>5. Copy the file from the "colors.properties" repository folder to the ".termux" folder and restart Termux.</p>
+<p>6. Create the "fastfetch" folder inside the ".config" folder.</p>
+
+```bash
+mkdir -p ~/.config/fastfetch
+```
