@@ -34,3 +34,9 @@ mkdir ~/.termux
 mkdir -p ~/.config/fastfetch
 ```
 <p>7. Copy the files "config.jsonc" and "ascii.txt" to ".config/fastfetch".</p>
+<p>8. Download the regular version of this font.</p>
+
+```url
+https://www.fontspace.com/minecraft-font-f28180
+```
+<p>9. Convert the font to TTF and rename it to "font.ttf", then move it to the ".termux" folder.</p>
