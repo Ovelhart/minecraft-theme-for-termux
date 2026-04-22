@@ -40,3 +40,4 @@ mkdir -p ~/.config/fastfetch
 https://www.fontspace.com/minecraft-font-f28180
 ```
 <p>9. Convert the font to TTF and rename it to "font.ttf", then move it to the ".termux" folder.</p>
+<h1>If you want to run fastfetch automatically when you log into Termux, follow these instructions:</h1>
