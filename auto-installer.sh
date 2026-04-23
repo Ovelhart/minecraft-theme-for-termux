@@ -17,8 +17,6 @@ pkg install fastfetch -y
 
 clear
 toilet Minecraft | lolcat
-PS1='\[\e[1;31m\]->\[\e[0m\] '
-echo -e "\e[6 q"
 mkdir -p ~/.config/fastfetch
 
 if [ -f ~/.termux/colors.properties ]; then
@@ -62,3 +60,5 @@ mv ~/minecraft-theme-for-termux/colors.properties ~/.termux/
 mv ~/minecraft-theme-for-termux/config.jsonc ~/.config/fastfetch/
 mv ~/minecraft-theme-for-termux/ascii.txt ~/.config/fastfetch/
 termux-reload-settings
+PS1='\[\e[1;31m\]->\[\e[0m\] '
+echo -e "\e[6 q"
