@@ -1,9 +1,16 @@
 # minecraft-theme-for-termux
+
+<p align="center">
+  <img src="banner.png" width="100%" margin="3%">
+</p>
+
 This is a Minecraft theme repository for Termux. This theme is compatible with Termux downloaded from f-droid, GitHub, and the Play Store.
 
 [![Stars](https://img.shields.io/github/stars/Ovelhart/minecraft-theme-for-termux?style=for-the-badge)](https://github.com/Ovelhart/minecraft-theme-for-termux)
 [![Forks](https://img.shields.io/github/forks/Ovelhart/minecraft-theme-for-termux?style=for-the-badge)](https://github.com/Ovelhart/minecraft-theme-for-termux)
 [![Repo Size](https://img.shields.io/github/repo-size/Ovelhart/minecraft-theme-for-termux?style=for-the-badge)](https://github.com/Ovelhart/minecraft-theme-for-termux)
+
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Ovelhart/minecraft-theme-for-termux/refs/heads/main/screenshot.png" alt="Minecraft Termux Screenshot" width="400">
