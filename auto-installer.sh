@@ -3,6 +3,8 @@ pkg install bash -y
 chsh -s bash
 clear
 pkg install git -y
+pkg install python -y
+pip install lolcat
 
 if [ -d ~/minecraft-theme-for-termux ]; then
   rm -rf ~/minecraft-theme-for-termux
